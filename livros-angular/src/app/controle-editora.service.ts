@@ -5,6 +5,7 @@ import { Editora } from "src/app/editora";
   providedIn: 'root'
 })
 
+/* reutilizado do nv3*/
 export class ControleEditoraService {
   editoras: Array<Editora> = [
     { codEditora: 1, nome: "Alta Books" },
@@ -12,7 +13,7 @@ export class ControleEditoraService {
     { codEditora: 3, nome: "Addison Wesley" },
   ];
 
-  
+
   getEditoras(): Array<Editora> {
     return this.editoras;
   }

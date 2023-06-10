@@ -4,6 +4,8 @@ import { Livro } from 'src/app/livro';
 @Injectable({
   providedIn: 'root'
 })
+
+/* reutilizado do nv3*/
 export class ControleLivrosService {
   livros: Array<Livro> = [
     {
