@@ -50,4 +50,6 @@ export class ControleLivrosService {
       this.livros.splice(index, 1);
     }
   }
-}
+} 
+
+
